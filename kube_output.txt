@@ -1,0 +1,3 @@
+NAME                               READY   STATUS    RESTARTS   AGE
+project3-docker-75d4b898c7-7qqm5   1/1     Running   1          3m58s
+project3-docker-75d4b898c7-wxwxn   1/1     Running   1          3m58s

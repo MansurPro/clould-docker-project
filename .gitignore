@@ -1,0 +1,48 @@
+# macOS specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon files
+Icon?
+._*
+
+# Thumbnails
+Thumbs.db
+
+# Spotlight files
+*.Spotlight-V100*
+
+# Temporary files
+*.tmp
+*.swp
+
+# macOS resource fork files
+*.ResourceFork
+
+# Python specific files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyc
+*.pyd
+*.pdb
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+pip-wheel-metadata/
+*.log
+.env
+.venv
+env/
+venv/
+.idea/
+*.coverage
+.coverage.*
+.cache
+.pytest_cache/
+.mypy_cache/
+.dmypy.json
+.tox/

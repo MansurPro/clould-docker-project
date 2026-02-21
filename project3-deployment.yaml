@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: project3-docker
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: project3-docker
+  template:
+    metadata:
+      labels:
+        app: project3-docker
+    spec:
+      containers:
+        - name: project3-docker
+          image: project3-docker:1
+          imagePullPolicy: IfNotPresent
+          command: ["sh", "-c", "python /app/scripts.py; tail -f /dev/null"]
